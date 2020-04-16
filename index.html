@@ -1,12 +1,5 @@
 <html>
     <head>
-        
-    </head>
-    <body> 
-        <script>
-            alert(getUrlParameter('r'));
-        </script>
-       
         <script>
             var getUrlParameter = function getUrlParameter(sParam) {
                 var sPageURL = window.location.search.substring(1),
@@ -23,5 +16,12 @@
                 }
             };
         </script>
+    </head>
+    <body> 
+        <script>
+            alert(getUrlParameter('r'));
+        </script>
+       
+        
     </body>
 </html>
